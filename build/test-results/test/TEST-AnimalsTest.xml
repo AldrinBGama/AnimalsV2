@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AnimalsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-12-03T11:59:48" hostname="recruit-ThinkCentre-M73" time="0.026">
+  <properties/>
+  <testcase name="TestDogEats()" classname="AnimalsTest" time="0.014"/>
+  <testcase name="TestCat()" classname="AnimalsTest" time="0.002"/>
+  <testcase name="TestDog()" classname="AnimalsTest" time="0.001"/>
+  <testcase name="TestCatSound()" classname="AnimalsTest" time="0.0"/>
+  <testcase name="TestDogSound()" classname="AnimalsTest" time="0.001"/>
+  <testcase name="TestCatEats()" classname="AnimalsTest" time="0.001"/>
+  <system-out><![CDATA[Food
+Food
+Food
+Meow
+Meow
+Food
+Food
+Bark
+Bark
+Meow
+Bark
+Food
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
