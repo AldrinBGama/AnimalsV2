@@ -4,21 +4,22 @@ public class Main {
         System.out.println(" ");
 
         Dog dog = new Dog();
-        dog.setName("Rax");
+        dog.setName("Spot");
         dog.eats();
         dog.sounds();
 
         System.out.println(" ");
 
         Cat cat = new Cat();
-        cat.setName("Stormy");
+        cat.setName("Kitty");
         cat.eats();
         cat.sounds();
+        cat.getName();
 
-        Home home =new Home();
-        Dog dog1= new Dog();
-        Dog dog2= new Dog();
-        Cat cat1= new Cat();
+        Home home = new Home();
+        Dog dog1 = new Dog();
+        Dog dog2 = new Dog();
+        Cat cat1 = new Cat();
 
         System.out.println(" ");
 
@@ -31,7 +32,5 @@ public class Main {
 
         home.adoptPet(dog2);
         home.makeAllSounds();
-
     }
-
 }

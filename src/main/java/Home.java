@@ -1,11 +1,9 @@
-
-
 public class Home  {
-    public void adoptPet(Animals animals){
+    public void adoptPet (Animals animals) {
         animals.sounds();
     }
 
-    public void makeAllSounds(){
+    public void makeAllSounds () {
 
     }
 }

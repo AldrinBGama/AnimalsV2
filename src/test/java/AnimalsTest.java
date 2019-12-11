@@ -3,15 +3,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AnimalsTest {
-
-
-
-
     Dog dog = new Dog();
     Cat cat = new Cat();
     @Test
     void TestDogSound() {
-        assertEquals("Bark", dog.sounds());
+        assertEquals("Barks", dog.sounds());
     }
 
     @Test
@@ -33,8 +29,8 @@ class AnimalsTest {
     void TestDog () {
         assertTrue("Food".equalsIgnoreCase(dog.eats()));
         assertTrue("food".equalsIgnoreCase(dog.eats()));
-        assertTrue("Bark".equalsIgnoreCase(dog.sounds()));
-        assertTrue("bark".equalsIgnoreCase(dog.sounds()));
+        assertTrue("Barks".equalsIgnoreCase(dog.sounds()));
+        assertTrue("barks".equalsIgnoreCase(dog.sounds()));
     }
 
     @Test
