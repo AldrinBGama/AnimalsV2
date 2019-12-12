@@ -5,16 +5,16 @@ public class Main {
 
         Dog dog = new Dog();
         dog.setName("Spot");
-        dog.eats();
-        dog.sounds();
-
+        System.out.println(dog.sounds());
+        System.out.println(dog.eats());
         System.out.println(" ");
 
         Cat cat = new Cat();
         cat.setName("Kitty");
-        cat.eats();
-        cat.sounds();
-        cat.getName();
+        System.out.println(cat.sounds());
+        System.out.println(cat.eats());
+
+
 
         Home home = new Home();
         Dog dog1 = new Dog();

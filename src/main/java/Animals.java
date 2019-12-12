@@ -11,17 +11,13 @@ public class Animals {
         this.name = name;
     }
 
-    public String getName () {
-        return name;
-    }
+
 
     public String sounds () {
-        System.out.println("Sounds...");
-        return "Sounds...";
+        return ("Sounds...");
     }
 
     public String eats () {
-        System.out.println("Food");
-        return "Food";
+        return (name +" "+"eats "+"Food");
     }
 }
