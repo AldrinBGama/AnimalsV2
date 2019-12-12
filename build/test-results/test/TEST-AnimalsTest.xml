@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnimalsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-12T08:54:29" hostname="recruit-ThinkCentre-M73" time="0.013">
+<testsuite name="AnimalsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-12T12:23:57" hostname="recruit-ThinkCentre-M73" time="0.017">
   <properties/>
-  <testcase name="TestDogEats()" classname="AnimalsTest" time="0.01"/>
-  <testcase name="TestDogSound()" classname="AnimalsTest" time="0.002"/>
+  <testcase name="TestDogEats()" classname="AnimalsTest" time="0.014"/>
+  <testcase name="TestDogSound()" classname="AnimalsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
